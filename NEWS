@@ -140,6 +140,11 @@ Backported from 7.2.26
   . Fixed bug #78910 (Heap-buffer-overflow READ in exif). (CVE-2019-11047).
     (Nikita)
 
+Backported from 7.2.14RC1
+
+- COM:
+  . Fixed bug #77177 (Serializing or unserializing COM objects crashes). (cmb)
+
 Backported from 7.1.33
 
 - FPM:
