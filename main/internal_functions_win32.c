@@ -101,7 +101,6 @@
 #if HAVE_XML && HAVE_WDDX
 #include "ext/wddx/php_wddx.h"
 #endif
-#include "ext/com_dotnet/php_com_dotnet.h"
 #ifdef HAVE_SPL
 #include "ext/spl/php_spl.h"
 #endif
@@ -123,7 +122,6 @@ static zend_module_entry *php_builtin_extensions[] = {
 #if HAVE_CALENDAR
 	,phpext_calendar_ptr
 #endif
-	,phpext_com_dotnet_ptr
 #if HAVE_CTYPE
 	,phpext_ctype_ptr
 #endif
